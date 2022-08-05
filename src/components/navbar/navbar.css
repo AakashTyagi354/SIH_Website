@@ -1,0 +1,158 @@
+.navbar {
+    height: 64px;
+    width: 100vw;
+    box-shadow: 0px 0px 8px -1px rgb(128, 128, 128);
+    -webkit-box-shadow: 0px 0px 8px -1px rgb(128, 128, 128);
+    -moz-box-shadow: 0px 0px 8px -1px rgb(128, 128, 128);
+    display: flex;
+
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+
+
+}
+@media only screen and (max-width: 500px) {
+    .navbar{
+       background-color: red;
+       width: 500px;
+    }
+    .left{
+       display: none;
+        background-color: yellow;
+
+    }
+    .right{
+        width: 100%;
+        background-color: #56bf4b;
+        margin-right: 40px;
+        
+    }
+    .linksnavbar{
+        margin-right: 20px;
+    }
+    .btn{
+        margin-right: 100px;
+    }
+    
+  }
+
+.left {
+    flex: 1;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.left:hover {
+    color: gray;
+}
+
+.center {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+
+
+}
+
+.links {
+    margin-right: 24px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.784);
+   
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+   
+}
+.imageNav{
+    width: 200px;
+    height: 70px;
+}
+
+.links:hover {
+    color: green;
+    /* border-bottom: 1px solid blue; */
+
+}
+
+.linksnavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+width: 320px;
+    padding-left: 140px;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+
+    margin-left: 20px;
+}
+
+.search {
+    flex: 1;
+}
+
+.btn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+.signin {
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    text-decoration: none;
+    
+
+
+}
+
+.signin:hover {
+    background-color: #56bf4b;
+    color: white;
+}
+
+.signup {
+    background-color: #3b4859;
+    height: 40px;
+    width: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.7s all ease;
+    text-decoration: none;
+}
+
+.signup:hover {
+    opacity: 0.8;
+}

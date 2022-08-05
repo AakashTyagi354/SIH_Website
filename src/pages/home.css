@@ -1,0 +1,403 @@
+.home2{
+    height: 78vh;
+    width: 100vw;
+    display: flex;
+  
+    flex: 1;
+   
+ 
+    
+}
+@media only screen and (max-width: 500px) {
+   .chartImg{
+       display: none;
+   }
+   .home2Left{
+       
+      
+       margin-left: 60px;
+     
+       height: 100%;
+       width: 400px;
+   }
+   .homeBtn2{
+       margin-top: 40px;
+       margin-left: 80px;
+   }
+   .home3{
+  
+       width: 500px;
+       display: flex;
+       flex-direction: column;
+       
+      
+   }
+   .home3Left{
+    
+   
+      
+   }
+   .home3Right{
+       display: none;
+   }
+   .home3video{
+       margin-bottom: 80px;
+   }
+   .home5left{
+       display: none;
+   }
+   .pointImage{
+       display: none;
+   }
+   .home5{
+       background-color: #30326f;
+       
+   }
+   .home5right{
+       height: 500px;
+       display: none;
+   }
+   .points{
+       display: none;
+   }
+   .point{
+       display: none;
+   }
+   .subpoint{
+       display: none;
+   }
+  }
+.home3{
+flex: 1;
+
+height: 100vh;
+}
+.home2Left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 40px;
+    z-index: -3;
+}
+.home2Right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -3;
+    
+}
+h4{
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    opacity: 0.8;
+}
+.homeP{
+    font-size: 16px;
+    color: gray;
+    letter-spacing: 1.5px;
+}
+.homeBtn2{
+     background-color: green;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    height: 42px;
+    width: 160px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 240px;
+    cursor: pointer;
+    padding: 3px; 
+    
+    
+}
+/* .uni{
+    background-color: #56bf4b;
+} */
+.chartImg{
+    height: 90%;
+    width: 100%;
+  
+}
+.home3{
+    display: flex;
+
+}
+.home4{
+    height: 28vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px -1px rgb(128, 128, 128);
+    -webkit-box-shadow: 0px 0px 8px -1px rgb(128, 128, 128);
+    -moz-box-shadow: 0px 0px 8px -1px rgb(128, 128, 128);
+
+}
+.icons{
+    color: rgba(128, 128, 128, 0.749);
+    transition: 1s all ease;
+}
+.icons:hover{
+    color: black;
+}
+.footerTop{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dotted gray;
+}
+.footerBottom{
+    flex: 7;
+    
+}
+.footerSub{
+    display: flex;
+}
+.home3Left{
+    flex: 1;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home3Right{
+    flex: 1;
+    margin-top: 120px;
+}
+.home3video{
+    padding-top: 40px;
+    height: 70%;
+    width: 80%;
+}
+.footerInput{
+    border: 1px solid black;
+}
+.script{
+    margin-top: 100px;
+}
+.title{
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.title2{
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.problemDesc{
+    color: rgba(128, 128, 128, 0.788);
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.footerInput{
+    border: none;
+    height: 38px;
+    width: 240px;
+    letter-spacing: 1px;
+}
+.footerBtn{
+    background-color: red;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.7s all ease;
+}
+.footerBtn:hover{
+    background-color: rgb(11, 206, 11);
+}
+.footerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.code{
+    margin-top: 10px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+
+    width: 240px;
+    cursor: pointer;
+}
+.socials{
+    border-radius: 50%;
+  height: 35px;
+  width: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home5{
+  
+    height: 74vh;
+    display: flex;
+}
+.home5left{
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.home5right{
+    flex: 1;
+}
+.home5right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.points{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+    width: 90%;
+    height: 86%;
+}
+.point{
+    display: flex;
+}
+.pointIcon{
+    color: green;
+    margin-right: 10px;
+}
+.subPoint{
+    letter-spacing: 1px;
+    color: gray;
+    font-size: 14px;
+}
+.pointImage{
+    height: 80%;
+    width: 80%;
+    margin-bottom: 20px;
+ }
+.imageFooter{
+    width: 280px;
+    height: 100px;
+}
+.home6{
+    height: 40vh;
+    background-color: #56bf4b;
+    display: flex;
+    flex-direction: column;
+}
+.home6Top{
+   flex: 9;
+   display: flex;
+   border-bottom: 1.2px dotted rgba(255, 255, 255, 0.604);
+}
+.home6left{
+    flex: 3;
+}
+.home6center{
+    flex: 6;
+}
+.home6right{
+    flex: 3;
+}
+.titlecenter{
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.841);
+    border-bottom: 1px solid white;
+    width: 140px;
+
+}
+.subcenter{
+    padding-top: 20px;
+    width: 400px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.titleright{
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.841);
+    border-bottom: 1px solid white;
+    width: 140px;
+}
+.info{
+  
+    width: 80%;
+}
+.footericons{
+    color: white;
+    cursor: pointer;
+}
+.footericons:hover{
+    color: green;
+}
+.footersocial{
+    margin-top: 10px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialfooter{
+    width: 35px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.socialfooter:hover{
+   background-color: white;
+}
+.email{
+    padding-top: 6px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    
+}
+.number{
+    padding-top: 6px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.address{
+    padding-top: 6px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.home6Bottom{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyRight{
+    color: rgba(255, 255, 255, 0.739);
+    padding-top: 10px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
