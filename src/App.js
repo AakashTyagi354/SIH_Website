@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Model from "./pages/Model";
+import Input from "./pages/Input";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/model" element={<Model />} />
+          <Route exact path="/inputmodel" element={<Input />} />
         </Routes>
       </Router>
     

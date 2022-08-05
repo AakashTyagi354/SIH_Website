@@ -20,6 +20,7 @@ function Navbar() {
                     <div className="linksnavbar">
                         <NavLink className="links" to='/home'>Home</NavLink>
                         <NavLink className="links" to='/iomodule'>How to use</NavLink>
+                        <NavLink className="links" to='/inputmodel'>Models</NavLink>
                     </div>
 
                     <div className="btn">

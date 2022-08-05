@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import "./model.css"
 
 import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line } from "recharts"
+import { NavLink } from 'react-router-dom';
 
 export async function fetchData() {
     const requestOptions = {
@@ -183,11 +184,13 @@ function Model() {
         <div className="model">
             <div className="modelTop">
                 <div className="sumFor">
-                    <div className="sumary">Sumary</div>
+                    <NavLink to="/inputmodel">
+                        <div className="sumary">Sumary</div>
+                    </NavLink>
                     <div className="forcasting">Forcasting</div>
                 </div>
                 <div className="modelBtn">
-        
+
                     <button onClick={handleClickWeek} id='A' style={{
                         backgroundColor: isActiveWeek ? 'green' : '',
                         color: isActiveWeek ? 'white' : '',
